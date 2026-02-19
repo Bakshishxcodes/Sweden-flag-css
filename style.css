@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+#outer_box{
+    height: 400px;
+    width: 600px;
+    background-color: yellow;
+    position: relative;
+    top: 100px;
+    left: 380px;
+}
+
+.box{
+    background-color: blue;
+    height: 160px;
+}
+
+.left{
+    width: 180px;
+    position: absolute;
+    left: 0px;
+}
+
+.first{
+    top: 0px;
+}
+
+.second{
+    bottom: 0px;
+}
+
+.right{
+    width: 340px;
+    position: absolute;
+    right: 0px;
+}
+
+.third{
+    top: 0px;
+}
+
+.fourth{
+    bottom: 0px;
+}
+
+#label{
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 570px;
+}
